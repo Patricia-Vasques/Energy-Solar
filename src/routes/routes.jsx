@@ -1,5 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
+import { MenuLateral}  from "../components/menu-lateral/MenuLateral"
+
 import { LoginPage } from "../pages/login/LoginPage";
 
 export default function AppRotas() {
