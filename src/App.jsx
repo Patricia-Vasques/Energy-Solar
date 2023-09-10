@@ -1,4 +1,4 @@
-import AppRotas from './Routes/routes'
+import AppRotas from './routes/routes'
 
 function App() {
 
