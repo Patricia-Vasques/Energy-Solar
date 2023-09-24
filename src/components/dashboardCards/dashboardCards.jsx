@@ -1,7 +1,9 @@
-import './Dashboard.css'
+import CardUnidades from "../cardUnidades/cardUnidades"
+import styles from './dashboardCards.module.css'
+import dadosUnidades from "../../services/dadosUnidades"
+import dadosLacamentos from "../../services/dadosLancamentos";
 
-
-const Dashboard = () => {
+const DashboardCards = () => {
     const { unidades,unidadesAtivas,unidadeInativa } = dadosUnidades();
     const {mediaConsumo}=dadosLacamentos();
     return (
@@ -13,4 +15,4 @@ const Dashboard = () => {
         </div>
     )
 }
-export default Dashboard
+export default DashboardCards

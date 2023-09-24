@@ -5,7 +5,7 @@ import { PiEnvelopeLight } from "react-icons/pi";
 import usersData from "../../../database/data.json";
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./LoginPages.css";
+import "./LoginPage.css";
 
 const Login = () => {
         const [email, setEmail] = useState("");

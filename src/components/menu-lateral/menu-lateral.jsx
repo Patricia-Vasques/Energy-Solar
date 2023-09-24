@@ -1,4 +1,4 @@
-import "./MenuLateral.css";
+import styles from "./menu-lateral.module.css";
 import { Link, useLocation } from 'react-router-dom';
 import iconeCadastroBranco from "./imagens/icone-cadastrar-branco.png";
 import iconeDashboardBranco from "./imagens/icone-dashboard-branco.png";
